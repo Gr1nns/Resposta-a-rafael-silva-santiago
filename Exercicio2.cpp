@@ -7,7 +7,6 @@ int main(){
     string n1;
  cout << "Digite seu nome: ";
  cin >> n1;
- cout << "Olá "<< n1 << ", é um prazer te conhecer!" <<endl ; 
-
+ cout << "Olá "<< n1 << ", é um prazer te conhecer!" << endl; 
 return 0;
 }
