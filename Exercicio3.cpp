@@ -10,7 +10,6 @@ int main(){
  cin >> n1;
  cout << "Digite o salario: ";
  cin >> n2;  
- cout << "O funcionario "<< n1 << ", tem um salario de R$"<<n2 <<endl ; 
-
+ cout << "O funcionario "<< n1 << ", tem um salario de R$"<<n2 <<endl; 
 return 0;
 }
