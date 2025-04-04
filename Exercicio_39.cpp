@@ -4,13 +4,14 @@
 using namespace std;
 int main() {
     int a;
-    cout << "Digite 0: ";
+    cout << "Digite 10: ";
     cin >> a;
-    while (a < 18) {
+    while (a <= 10) {
         cout << a << endl;
-        a+=3;
-        if(a == 18){
-        	cout << "18 Acabou!"<<endl;
+        a-=1;
+        if(a == 3){
+        	cout << "3 Acabou!"<<endl;
+        	break;
 		}
     }
     system("pause");
