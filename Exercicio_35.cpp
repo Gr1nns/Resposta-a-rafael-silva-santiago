@@ -2,7 +2,6 @@
 #include <string>
 #include <iomanip>
 using namespace std;
-
 int main() {
     string car;
     float km, po1, po2, po3, po4, lux1, lux2, lux3, lux4;
@@ -10,10 +9,8 @@ int main() {
 
     cout << "Você utilizou um carro (popular) ou um carro de (luxo)? ";
     cin >> car;
-
     cout << "Quantos dias você utilizou o carro? ";
     cin >> dias;
-
     cout << "Quantos Km você andou com o carro? ";
     cin >> km;
 
