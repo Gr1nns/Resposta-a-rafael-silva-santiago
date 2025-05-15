@@ -15,7 +15,6 @@ int main(){
     for(i = 0; i < a; i++){
         arr[i] = 1;
         vs=(i+1)*5;
-        cout<<vs<<endl;
     }
     return 0;
 }
